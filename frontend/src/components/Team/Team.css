@@ -1,0 +1,83 @@
+.team {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 80px;
+ margin: 80px 170px;
+
+
+}
+
+.team-title {
+ position: relative;
+}
+.team-title h1 {
+    
+   font-family: Istok Web;
+font-size: 48px;
+font-weight: 700;
+line-height: 69.09px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-top: 74px;
+}
+.team-title p {
+    font-family: Istok Web;
+font-size: 32px;
+font-weight: 400;
+line-height: 46.06px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+.team-container  {
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.team-content  {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 30px;
+     
+    cursor: pointer;
+    transition: 0.4s;
+   
+}
+.team-content img {
+    object-fit: cover;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.team-content h1 {
+   font-family: Istok Web;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.55px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.team-content p {
+   font-family: Istok Web;
+font-size: 24px;
+font-weight: 40;
+line-height: 34.55px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}

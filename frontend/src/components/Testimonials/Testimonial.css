@@ -1,0 +1,97 @@
+.testimonial {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ gap: 80px;
+ margin: 80px 170px;
+ padding: 165px 200px;
+ background:rgba(242, 255, 251, 1);
+}
+.testimonial-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 45px;
+}
+.testimonial-title h1 {
+width: 241px;
+height: 47px;
+font-family: Istok Web;
+font-size: 40px;
+font-weight: 700;
+line-height: 57.58px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.testimonial-title p {
+width: 689.71px;
+height: 35.93px;
+font-family: Istok Web;
+font-size: 24px;
+font-weight: 400;
+line-height: 34.55px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.testimonial-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+height: 267.93px;
+gap: 30px;
+
+
+}
+.testimonial-content {
+   width: 309.56px;
+height: 267.93px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+background: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+border-radius: 20px;
+}
+.testimonial-content h2 {
+  width: 215.79px;
+height: 78.02px;
+font-family: Istok Web;
+font-size: 16px;
+font-weight: 700;
+line-height: 23.03px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.testimonial-content-image {
+  width: 128.06px;
+height: 36.96px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.testimonial-content-image img {
+    width: 20.7px;
+height: 36.96px;
+}
+.testimonial-content h3 {
+width: 102.01px;
+height: 38.19px;
+font-family: Istok Web;
+font-size: 16px;
+font-weight: 700;
+line-height: 23.03px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}

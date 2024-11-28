@@ -1,0 +1,112 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+
+}
+.contact-container {
+    display: flex;
+    gap: 80px;
+    width: 1217px;
+height: 645px;
+
+
+}
+.contact-image img {
+width: 600px;
+height: 522px;
+}
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+    width: 440px;
+
+border-radius: 10px;
+}
+.contact-title {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.contact-title h1 {
+    width: 206px;
+height: 58px;
+font-family: Istok Web;
+font-size: 40px;
+font-weight: 700;
+line-height: 57.58px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.contact-right label {
+    width: 52px;
+height: 29px;
+font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.contact-right input {
+   width: 440px;
+height: 65px;
+border: none;
+border-radius: 10px;
+background: rgba(228, 252, 244, 1);
+padding: 20px;
+font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.contact-right textarea {
+      width: 440px;
+height: 65px;
+border: none;
+border-radius: 10px;
+background: rgba(228, 252, 244, 1);
+padding: 19px 20px;
+font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+overflow: hidden;
+}
+.contact-right button {
+    width: 440px;
+height: 65px;
+border-radius: 10px;
+background: rgba(25, 139, 103, 1);
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Istok Web;
+font-size: 20px;
+font-weight: 700;
+line-height: 28.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}

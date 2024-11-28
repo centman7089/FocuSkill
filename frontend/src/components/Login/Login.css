@@ -1,0 +1,186 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+
+}
+.login-container {
+    display: flex;
+    gap: 80px;
+    width: 1217px;
+height: 645px;
+
+
+}
+.login-image img {
+width: 600px;
+height: 522px;
+position: relative;
+}
+.login .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login .logo a {
+   text-decoration: none;
+ position: absolute;
+  border-radius: 50px;
+ width: 151px;
+height: 45px;
+top: 450px;
+left: 360px;
+gap: 0px;
+opacity: 0px;
+  cursor: pointer;
+  z-index: 1;
+}
+.login .logo span {
+    position: absolute;
+    width: 216px;
+height: 23px;
+top: 495px;
+left: 345px;
+gap: 0px;
+opacity: 0px;
+font-family: Istok Web;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.03px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+z-index: 1;
+}
+.logo p {
+  width: 103px;
+height: 35px;
+font-family: Istok Web;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.55px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 0, 0, 1);
+
+}
+.logo img {
+   width: 27px;
+  height: 42px;
+  background: white;
+}
+.login-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+    width: 440px;
+
+border-radius: 10px;
+}
+.login-title {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.login-title h1 {
+    width: 206px;
+height: 58px;
+font-family: Istok Web;
+font-size: 40px;
+font-weight: 700;
+line-height: 57.58px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.login-right label {
+    width: 52px;
+height: 29px;
+font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.login-right input {
+   width: 440px;
+height: 65px;
+border: none;
+border-radius: 10px;
+background: rgba(228, 252, 244, 1);
+padding: 10px 20px;
+font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.login-right textarea {
+      width: 440px;
+height: 65px;
+border: none;
+border-radius: 10px;
+background: rgba(228, 252, 244, 1);
+padding: 19px 20px;
+font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+overflow: hidden;
+}
+.login-right button {
+    width: 440px;
+height: 65px;
+border-radius: 10px;
+background: rgba(25, 139, 103, 1);
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Istok Web;
+font-size: 20px;
+font-weight: 700;
+line-height: 28.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+cursor: pointer;
+}
+.login-right .check {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    
+}
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    justify-items: end;
+   font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}

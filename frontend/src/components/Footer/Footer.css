@@ -1,0 +1,84 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 170px;
+    gap: 30px;
+    background: rgba(25, 139, 103, 1);
+    color: white;
+
+}
+
+.footer-container {
+    width: 947px;
+height: 199px;
+display: flex;
+align-items: start;
+flex-direction: column;
+justify-content: center;
+gap: 30px;
+color: white;
+
+}
+.footer .logo a {
+ 
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+ 
+  cursor: pointer;
+}
+.logo p {
+  width: 103px;
+height: 35px;
+font-family: Istok Web;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.55px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 0, 0, 1);
+
+}
+.logo img {
+   width: 27px;
+  height: 42px;
+  background: white;
+}
+.footer-nav {
+    width: 925px;
+height: 116px;
+display: flex;
+justify-content: space-between;
+
+}
+.footer-menu {
+   display: flex;
+   flex-direction: column;
+  list-style: none;
+  gap: 5px;
+  font-size: 18px;
+  color: #000;
+  
+}
+.footer-menu a {
+
+
+
+  text-decoration: none;
+  color: black;
+  font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    
+}

@@ -1,0 +1,203 @@
+.navbar {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 170px;
+}
+.navbar .logo a {
+ 
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+ 
+  cursor: pointer;
+}
+.logo p {
+  width: 103px;
+height: 35px;
+font-family: Istok Web;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.55px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 0, 0, 1);
+
+}
+.logo img {
+   width: 27px;
+  height: 42px;
+}
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-size: 18px;
+  color: #000;
+}
+.navbar-menu a {
+  width: 65px;
+height: 29px;
+
+
+  text-decoration: none;
+  color: black;
+  font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar button {
+  background: transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 1px solid tomato;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.navbar button:hover {
+  background-color: #fff4f2;
+}
+.navbar .active {
+  padding: 2px;
+  
+}
+.navbar li {
+  cursor: pointer;
+}
+.navbar li:hover {
+  color: #49557e;
+  border-radius: 50px;
+  border: 1px solid red;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+.extra a {
+    text-decoration: none;
+     width: 45px;
+height: 23px;
+font-family: Istok Web;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.03px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+}
+
+.extra button {
+  width: 96px;
+height: 33px;
+border-radius: 5px;
+padding: 5px 19px;
+color: white;
+background: rgba(25, 139, 103, 1);
+
+border: none;
+
+}
+/* .extra img {
+    margin-left: 5px;
+}
+.extra img:hover {
+    fill: red;
+} */
+
+.extra p a {
+    color: #96BB7C;
+    font-family: Istok Web;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.03px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+.extra button:hover {
+    background-color: transparent;
+    border: 1px solid #96BB7C ;
+    border-radius: 5px;
+    color: #96BB7C;
+}
+
+
+
+
+@media (max-width: 1050px) {
+  .navbar .logo {
+    width: 140px;
+  }
+    .navbar-menu {
+      gap: 20px;
+      font-size: 17px;
+    }
+  
+  .navbar-right {
+    gap: 30px;
+  }
+  .navbar-right img {
+    width: 22px;
+  }
+  .navbar-right button {
+    padding: 8px 25px;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar .logo {
+    width: 120px;
+  }
+    .navbar-menu {
+      gap: 15px;
+      font-size: 16px;
+    }
+  
+  .navbar-right {
+    gap: 20px;
+  }
+  .navbar-right img {
+    width: 20px;
+  }
+  .navbar-right button {
+    padding: 7px 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 750px) {
+
+
+    .navbar-menu {
+     display: none;
+    }
+
+}

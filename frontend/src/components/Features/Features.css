@@ -1,0 +1,80 @@
+.features {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ gap: 80px;
+ margin: 80px 170px;
+
+}
+
+.features-title {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.features-title h1 {
+    width: 198px;
+height: 69px;
+font-family: Istok Web;
+font-size: 48px;
+font-weight: 700;
+line-height: 69.09px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 32px 45px;
+}
+.features-format {
+     
+    width: 393px;
+    height: 233px;
+    border: 10x solid rgba(240, 255, 250, 1);
+    border-radius: 20px;
+    background:rgba(240, 255, 250, 1)
+}
+
+.features-content {
+ display: flex;
+ align-items: start;
+ justify-content: center;
+ padding: 31px 20px;
+ gap: 12px;
+}
+.features-content img {
+    width: 70px;
+height: 70px;
+}
+.features-content h1 {
+    
+width: 250px;
+height: 50px;
+font-family: Istok Web;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.55px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+
+}
+.features-content p {
+    width: 263px;
+height: 123px;
+font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+
+}

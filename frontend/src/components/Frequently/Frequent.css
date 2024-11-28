@@ -1,0 +1,121 @@
+.frequent {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ gap: 80px;
+ margin: 80px 170px;
+ background:rgba(242, 255, 251, 1);
+
+}
+.frequent-title {
+    width: 532px;
+height: 58px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 80px;
+}
+
+.frequent-title h1 {
+    font-family: Istok Web;
+font-size: 40px;
+font-weight: 700;
+line-height: 57.58px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(25, 139, 103, 1);
+
+}
+.frequent-container {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+ 
+ width: 1084px;
+height: 538px;
+
+
+}
+
+.frequent-left {
+    width: 495px;
+height: 361px;
+display: flex;
+align-items: start;
+flex-direction: column;
+gap: 30px;
+
+}
+.frequent-left h2 {
+    font-family: Istok Web;
+font-size: 16px;
+font-weight: 700;
+line-height: 23.03px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.frequent-left span {
+    font-family: Istok Web;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.03px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+display: flex;
+gap: 50px;
+padding-left: 19px;
+}
+
+
+.frequent-right {
+    width: 495px;
+height: 361px;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 30px;
+
+
+}
+.frequent-right h2 {
+    font-family: Istok Web;
+font-size: 16px;
+font-weight: 700;
+line-height: 23.03px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.frequent-right span {
+    font-family: Istok Web;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.03px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+display: flex;
+gap: 50px;
+padding-left: 19px;
+
+}
+
+@media (max-width:768px) {
+    .frequent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+    }
+    .frequent-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .frequent-left {
+        display: flex;
+        flex-direction: column;
+    }
+}

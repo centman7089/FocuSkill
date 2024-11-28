@@ -1,0 +1,199 @@
+
+/* first div */
+
+.containerDiv {
+position: relative;
+height: 756px;
+margin: 80px 60px;
+
+
+background: rgba(255, 255, 255, 1);
+
+}
+.contentDiv1 {
+   position: absolute;
+height: 653px;
+gap: 0px;
+opacity: 0px;
+
+}
+.textDiv {
+   position: absolute;
+height: 562px;
+top: 97px;
+left: 104px;
+gap: 0px;
+opacity: 0px;
+border: 2px solid rgba(25, 139, 103, 0.13);
+background: rgba(25, 139, 103, 0.13);
+
+}
+.textCont {
+    padding: 138px 768px 109px 64px;
+    width: 382px;
+height: 315px;
+top: 235px;
+left: 168px;
+gap: 0px;
+opacity: 0px;
+
+}
+.textCont .textCont-More {
+    width: 180px;
+height: 76px;
+top: 235px;
+left: 168px;
+gap: 0px;
+opacity: 0px;
+
+}
+.textCont-More h1 {
+    font-family: Istok Web;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.55px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.textCont-Para {
+width: 285px;
+height: 231px;
+top: 319px;
+left: 168px;
+gap: 0px;
+opacity: 0px;
+
+}
+.textCont-Para p {
+    font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.imageDiv {
+    position: absolute;
+    width: 650px;
+height: 653px;
+top: 51px;
+left: 686px;
+gap: 0px;
+opacity: 0px;
+
+z-index: 1;
+}
+
+img {
+    width: 100%;
+}
+
+/* second vid
+ */
+
+.containerDiv2 {
+    position: relative;
+  
+height: 756px;
+gap: 0px;
+opacity: 0px;
+background: rgba(255, 255, 255, 1);
+
+
+}
+
+.contentDiv {
+    position: absolute;
+   
+height: 653px;
+top: 46px;
+left: 105px;
+gap: 0px;
+opacity: 0px;
+
+}
+.image1 {
+    position: absolute;
+width: 650px;
+height: 653px;
+top: 46px;
+left: 105px;
+gap: 0px;
+opacity: 0px;
+
+z-index: 1;
+}
+
+.textDiv2 {
+    position: absolute;
+   
+width: 1232px;
+height: 562px;
+top: 98px;
+left: 105px;
+gap: 0px;
+border: 2px solid  white;
+border-radius: 50px;
+opacity: 0px;
+background: white;
+border: 2px solid gray;
+
+}
+
+.textDiv-content {
+   padding: 162px 95px 162px 719px;
+    width: 418px;
+height: 238px;
+top: 260px;
+left: 824px;
+gap: 0px;
+opacity: 0px;
+color: black;
+
+}
+
+.textDiv-content .textDiv-prod {
+   
+width: 390px;
+height: 70px;
+top: 260px;
+left: 824px;
+gap: 0px;
+opacity: 0px;
+ 
+}
+.textDiv-prod h1 {
+  
+    font-family: Istok Web;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.55px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.textDiv-content .textDiv-para {
+    
+    width: 418px;
+height: 145px;
+top: 353px;
+left: 824px;
+gap: 0px;
+opacity: 0px;
+
+}
+.textDiv-para p {
+    font-family: Istok Web;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
