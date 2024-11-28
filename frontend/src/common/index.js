@@ -1,4 +1,4 @@
-const backDomain = "http://localhost:5000"
+const backDomain = import.meta.env.MODE === "development" ? "http://localhost:5000" : "https://focuskill.onrender.com"
 
 const SummaryApi = {
     signUP : {
